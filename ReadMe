@@ -1,0 +1,21 @@
+This is the people finder API by Nicholas Perkins
+
+Endpoints
+
+Save Employee
+URI: /PersonFinderAPI/people
+
+Exam
+{"id":1009,"firstName":"Nick","lastName":"Perkins","emailAddress":"Perkins109@outlook.com"}
+
+Find by Id
+URI: /PersonFinderAPI/people/Id/{personId}
+
+Example
+/PersonFinderAPI/people/Id/1009
+
+Find by Email
+/PersonFinderAPI/people/email/{email}
+
+Example
+/PersonFinderAPI/people/email/Perkins109@outlook.com}
